@@ -46,6 +46,7 @@ Solo tendría la disponibilidad de observar la siguiente sección:
 
 Admin Prueba : 123456789
 Tendría la disponibilidad de observar las siguientes secciónes:
+-----
 ![imagen](https://github.com/user-attachments/assets/10f63245-df80-4c38-a64a-17b97e5d4cb2)
 
 sección para agregar precios especiales:
