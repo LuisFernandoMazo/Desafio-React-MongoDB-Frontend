@@ -7,7 +7,7 @@ import {
 } from "../../components/types/dto";
 import { formatDate } from "../../utils/Utils";
 
-const server = import.meta.env.VITE_SERVER_URL;
+const server = import.meta.env.VITE_SERVER_URL || "http://localhost:3000/";
 const endgetAllProducts = "api/products/getAllProducts";
 const endgetUserByDocument = "api/users/getUserByDocument";
 const endgetUsers = "api/users/getAllusers";
