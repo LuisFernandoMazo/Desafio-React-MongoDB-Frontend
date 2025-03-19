@@ -79,7 +79,7 @@ Se eligió **Axios** para las interacciones con la API debido a su facilidad de 
 
 ### **Context API**
 
-Utilizamos la **Context API** de React para manejar el estado global, como el rol del usuario o el documento (ID), sin la necesidad de pasar props a través de múltiples niveles de componentes. Esto mejora la escalabilidad y mantenibilidad del proyecto.
+Se utilizo **Context API** de React para manejar el estado global, como el rol del usuario o el documento (ID), sin la necesidad de pasar props a través de múltiples niveles de componentes. Esto mejora la escalabilidad y mantenibilidad del proyecto.
 
 ### **Vite**
 
