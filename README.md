@@ -86,10 +86,12 @@ Se utilizo **Context API** de React para manejar el estado global, como el rol d
 **Vite** fue elegido como el bundler para el proyecto debido a su rapidez y eficiencia en el desarrollo. Vite permite una recarga instantánea (Hot Module Replacement, HMR) durante el desarrollo, lo que mejora la experiencia de desarrollo y reduce el tiempo de espera al realizar cambios en el código. Además, **Vite** es compatible con TypeScript de manera nativa, lo que facilitó la configuración y mejora el flujo de trabajo.
 
 ### Descripción de la estructura del Proyecto
-
-![alt text](image.png)
+______
+![imagen](https://github.com/user-attachments/assets/16c38b7f-bde9-479e-87c1-3fe76680e78d)
 
 ## **Descripción de las Carpetas**
+
+- **apis/**: Contiene los servicios para el manejo de las API, encapsulando las interacciones con el backend. Esta carpeta incluye las funciones que realizan las solicitudes HTTP utilizando **Axios** y gestionan la  comunicación entre el frontend y el servidor. Los servicios están organizados por funcionalidades específicas, como la obtención de productos, usuarios, y precios especiales.
 
 - **`components/`**: Contiene componentes reutilizables como botones, campos de entrada (`Input`), y listas desplegables (`DropDown`), que son usados en varias partes de la aplicación.
 
