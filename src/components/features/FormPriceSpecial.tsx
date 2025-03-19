@@ -58,11 +58,30 @@ export const FormPriceSpecial = () => {
       setErrorForm("");
     }
 
+    //Valida que la fecha de inicio se menor a la fecha de finalización
+    if (new Date(formData.startDate) >= new Date(formData.endDate)) {
+      setErrorForm(
+        "La fecha de inicio debe ser menor que la fecha de finalización"
+      );
+      return;
+    }
+
+    // Verifica que las fechas no estén en el pasado
+    const now = new Date();
+    if (
+      new Date(formData.startDate) < now ||
+      new Date(formData.endDate) < now
+    ) {
+      setErrorForm("Las fechas no pueden estar en el pasado");
+      return;
+    }
+
     const data = {
       ...formData,
       startDate: new Date(formData.startDate).toISOString(),
       endDate: new Date(formData.endDate).toISOString(),
     };
+
     const resp = await addNewPriceSpecialApi(data);
     if (resp) {
       setSetshowPopUp(true);
