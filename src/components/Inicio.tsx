@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useDocument } from "./contexts/DocumentContext";
+import { useDocument } from "../contexts/DocumentContext";
 import { useState } from "react";
 import { Button } from "./common/Button";
 

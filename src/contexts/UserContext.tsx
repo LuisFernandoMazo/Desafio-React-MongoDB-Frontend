@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, ReactNode } from "react";
-import { UserRole } from "../types/dto"; // Tipo para el rol del usuario
+import { UserRole } from "../components/types/dto"; // Tipo para el rol del usuario
 
 // Definición del tipo para el contexto del usuario
 interface UserContextType {

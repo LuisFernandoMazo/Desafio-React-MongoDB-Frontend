@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "./common/Button";
-import { useUserData } from "./hooks/useUser";
-import { useDocument } from "./contexts/DocumentContext";
-import { useUser } from "./contexts/UserContext";
+import { useUserData } from "../hooks/useUser";
+import { useDocument } from "../contexts/DocumentContext";
+import { useUser } from "../contexts/UserContext";
 
 export const Header = () => {
   const { dataUser, setDataUser } = useUserData(); // Datos del usuario

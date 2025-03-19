@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useUser } from "./contexts/UserContext";
+import { useUser } from "../contexts/UserContext";
 import { Button } from "./common/Button";
 
 // Componente del menú lateral

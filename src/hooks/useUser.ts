@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { getUserApi } from "../../apis/services/api";
+import { getUserApi } from "../apis/services/api";
 import { useDocument } from "../contexts/DocumentContext";
-import { User } from "../types/dto";
+import { User } from "../components/types/dto";
 
 // Custom hook para obtener los datos del usuario
 export const useUserData = () => {

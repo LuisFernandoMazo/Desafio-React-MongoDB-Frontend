@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Header } from "./components/Header";
 import { SideMenu } from "./components/SideMenu";
-import { Articles } from "./components/features/Articles";
-import { FormPriceSpecial } from "./components/features/FormPriceSpecial";
+import { Articles } from "./components/pages/Articles";
+import { FormPriceSpecial } from "./components/pages/FormPriceSpecial";
 import { ProtectedRoute } from "./components/ProtectedRoute";
-import { UserProvider } from "./components/contexts/UserContext";
+import { UserProvider } from "./contexts/UserContext";
 import { Inicio } from "./components/Inicio";
-import { DocumentProvider } from "./components/contexts/DocumentContext";
-import { SpecialPrice } from "./components/features/SpecialPrice";
+import { DocumentProvider } from "./contexts/DocumentContext";
+import { SpecialPrice } from "./components/pages/SpecialPrice";
 
 function App() {
   return (

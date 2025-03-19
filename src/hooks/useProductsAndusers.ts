@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { getAllProductsApi, getAllUsersApi } from "../../apis/services/api";
-import { Product, User } from "../types/dto";
+import { getAllProductsApi, getAllUsersApi } from "../apis/services/api";
+import { Product, User } from "../components/types/dto";
 
 // Custom hook para obtener los productos y los usuarios
 export const useProductAndUsers = () => {

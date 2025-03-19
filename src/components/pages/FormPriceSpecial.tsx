@@ -5,7 +5,7 @@ import { useState } from "react";
 import { addNewPriceSpecialApi } from "../../apis/services/api";
 import { PriceSpecial } from "../types/dto";
 import { useNavigate } from "react-router-dom";
-import { useProductAndUsers } from "../hooks/useProductsAndusers";
+import { useProductAndUsers } from "../../hooks/useProductsAndusers";
 import { Spinner } from "../common/Spinner";
 import { formatearPrecio } from "../../utils/Utils";
 import Popup from "../common/PopUp";

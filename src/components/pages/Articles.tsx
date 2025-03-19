@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { articlesApi, getUserApi } from "../../apis/services/api";
 import { Article } from "../types/dto";
-import { useUser } from "../contexts/UserContext";
-import { useDocument } from "../contexts/DocumentContext";
+import { useUser } from "../../contexts/UserContext";
+import { useDocument } from "../../contexts/DocumentContext";
 import { useNavigate } from "react-router-dom";
 import { Table } from "./Table";
 import { Spinner } from "../common/Spinner";
