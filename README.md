@@ -35,11 +35,35 @@ npm run dev
 ➜ Network: use --host to expose
 ➜ press h + enter to show help
 
+### Roles 
+Actualmente se maneja dos roles "cliente" y "admin". El rol cliente permite acceder a la sección de articulos y el rol admin permite acceder a todos las secciones. 
+
+### ¿Cómo ingreso a la plataforma?
+Actualmente hay varios usuarios creados en al colección "usuariosMazo18", con los cuales se puede probar serian: 
+Cliente Prueba : 123456
+Solo tendría la disponibilidad de observar la siguiente sección:
+__________
+![imagen](https://github.com/user-attachments/assets/98feed4c-6dd4-44e9-82e5-e35be3688262)
+
+Admin Prueba : 123456789
+Tendría la disponibilidad de observar las siguientes secciónes:
+__________
+![imagen](https://github.com/user-attachments/assets/10f63245-df80-4c38-a64a-17b97e5d4cb2)
+
+sección para agregar precios especiales:
+__________
+![imagen](https://github.com/user-attachments/assets/dfa58d1a-c653-436a-bb91-003bf026c803)
+
+
 ## **Justificación de Elecciones Técnicas**
 
 ### **React**
 
-Elegimos **React** para el desarrollo frontend debido a su eficiencia en la construcción de interfaces de usuario dinámicas y su amplia adopción en la comunidad de desarrollo. React nos permite crear componentes reutilizables y manejar el estado de la aplicación de manera eficiente.
+**React** para el desarrollo frontend debido a su eficiencia en la construcción de interfaces de usuario dinámicas y su amplia adopción en la comunidad de desarrollo. React nos permite crear componentes reutilizables y manejar el estado de la aplicación de manera eficiente. Además, la integración con herramientas como Vite mejora el rendimiento y la velocidad del desarrollo.
+
+### **TypeScript**
+
+**TypeScript** se utilizó tanto en el frontend como en el backend para aprovechar el tipado estático. Esta elección ayuda a evitar errores comunes de programación al proporcionar una mejor verificación de tipos en tiempo de compilación. TypeScript mejora la calidad del código y facilita la refactorización, lo que es especialmente útil en aplicaciones más grandes y complejas. Además, TypeScript ofrece una experiencia de desarrollo más segura y predecible gracias a las ventajas del tipado explícito y la detección temprana de errores.
 
 ### **Tailwind CSS**
 
@@ -55,17 +79,19 @@ Se eligió **Axios** para las interacciones con la API debido a su facilidad de 
 
 ### **Context API**
 
-Utilizamos la **Context API** de React para manejar el estado global, como el rol del usuario o el documento (ID), sin la necesidad de pasar props a través de múltiples niveles de componentes. Esto mejora la escalabilidad y mantenibilidad del proyecto.
+Se utilizo **Context API** de React para manejar el estado global, como el rol del usuario o el documento (ID), sin la necesidad de pasar props a través de múltiples niveles de componentes. Esto mejora la escalabilidad y mantenibilidad del proyecto.
 
-### **Tailwind CSS y React Router**
+### **Vite**
 
-Ambas tecnologías se integran bien con la estructura de componentes en React, y el uso de **Tailwind CSS** garantiza una experiencia visual limpia y responsiva sin complicar la lógica del componente.
+**Vite** fue elegido como el bundler para el proyecto debido a su rapidez y eficiencia en el desarrollo. Vite permite una recarga instantánea (Hot Module Replacement, HMR) durante el desarrollo, lo que mejora la experiencia de desarrollo y reduce el tiempo de espera al realizar cambios en el código. Además, **Vite** es compatible con TypeScript de manera nativa, lo que facilitó la configuración y mejora el flujo de trabajo.
 
 ### Descripción de la estructura del Proyecto
-
-![alt text](image.png)
+______
+![imagen](https://github.com/user-attachments/assets/16c38b7f-bde9-479e-87c1-3fe76680e78d)
 
 ## **Descripción de las Carpetas**
+
+- **apis/**: Contiene los servicios para el manejo de las API, encapsulando las interacciones con el backend. Esta carpeta incluye las funciones que realizan las solicitudes HTTP utilizando **Axios** y gestionan la  comunicación entre el frontend y el servidor. Los servicios están organizados por funcionalidades específicas, como la obtención de productos, usuarios, y precios especiales.
 
 - **`components/`**: Contiene componentes reutilizables como botones, campos de entrada (`Input`), y listas desplegables (`DropDown`), que son usados en varias partes de la aplicación.
 
