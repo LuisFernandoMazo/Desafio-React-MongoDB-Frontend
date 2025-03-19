@@ -59,7 +59,11 @@ __________
 
 ### **React**
 
-Elegimos **React** para el desarrollo frontend debido a su eficiencia en la construcción de interfaces de usuario dinámicas y su amplia adopción en la comunidad de desarrollo. React nos permite crear componentes reutilizables y manejar el estado de la aplicación de manera eficiente.
+**React** para el desarrollo frontend debido a su eficiencia en la construcción de interfaces de usuario dinámicas y su amplia adopción en la comunidad de desarrollo. React nos permite crear componentes reutilizables y manejar el estado de la aplicación de manera eficiente. Además, la integración con herramientas como Vite mejora el rendimiento y la velocidad del desarrollo.
+
+### **TypeScript**
+
+**TypeScript** se utilizó tanto en el frontend como en el backend para aprovechar el tipado estático. Esta elección ayuda a evitar errores comunes de programación al proporcionar una mejor verificación de tipos en tiempo de compilación. TypeScript mejora la calidad del código y facilita la refactorización, lo que es especialmente útil en aplicaciones más grandes y complejas. Además, TypeScript ofrece una experiencia de desarrollo más segura y predecible gracias a las ventajas del tipado explícito y la detección temprana de errores.
 
 ### **Tailwind CSS**
 
@@ -77,9 +81,9 @@ Se eligió **Axios** para las interacciones con la API debido a su facilidad de 
 
 Utilizamos la **Context API** de React para manejar el estado global, como el rol del usuario o el documento (ID), sin la necesidad de pasar props a través de múltiples niveles de componentes. Esto mejora la escalabilidad y mantenibilidad del proyecto.
 
-### **Tailwind CSS y React Router**
+### **Vite**
 
-Ambas tecnologías se integran bien con la estructura de componentes en React, y el uso de **Tailwind CSS** garantiza una experiencia visual limpia y responsiva sin complicar la lógica del componente.
+**Vite** fue elegido como el bundler para el proyecto debido a su rapidez y eficiencia en el desarrollo. Vite permite una recarga instantánea (Hot Module Replacement, HMR) durante el desarrollo, lo que mejora la experiencia de desarrollo y reduce el tiempo de espera al realizar cambios en el código. Además, **Vite** es compatible con TypeScript de manera nativa, lo que facilitó la configuración y mejora el flujo de trabajo.
 
 ### Descripción de la estructura del Proyecto
 
