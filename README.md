@@ -27,7 +27,7 @@ cd nombre de la carpeta
 
 2. **Configuración de variables de entorno**
    Crear un archivo .env en la raíz del proyecto con las siguientes variables:
-   REACT_APP_SERVER_URL=http://localhost:3000
+   VITE_SERVER_URL=http://localhost:3000/
 
 4.**Ejecutar el frontend:**
 npm run dev
