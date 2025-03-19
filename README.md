@@ -42,11 +42,11 @@ Actualmente se maneja dos roles "cliente" y "admin". El rol cliente permite acce
 Actualmente hay varios usuarios creados en al colección "usuariosMazo18", con los cuales se puede probar serian: 
 Cliente Prueba : 123456
 Solo tendría la disponibilidad de observar la siguiente sección:
+__________
 ![imagen](https://github.com/user-attachments/assets/98feed4c-6dd4-44e9-82e5-e35be3688262)
 
 Admin Prueba : 123456789
 Tendría la disponibilidad de observar las siguientes secciónes:
------
 ![imagen](https://github.com/user-attachments/assets/10f63245-df80-4c38-a64a-17b97e5d4cb2)
 
 sección para agregar precios especiales:
